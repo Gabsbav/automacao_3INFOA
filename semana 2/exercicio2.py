@@ -7,3 +7,13 @@ A nota for menor que 6 ou se as presencas
 forem menor do que 75 e aprovado 
 caso contrário.
 '''
+
+notas = int(input("Digite a nota do aluno:"))
+faltas = int(input("Digite as faltas do aluno:"))
+
+if notas < 6:
+    print('reprovado')
+else: print('aprovado')
+if faltas > 75:
+    print('reprovado')
+else: print('aprovado')
